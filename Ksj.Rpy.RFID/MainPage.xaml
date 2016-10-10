@@ -8,6 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="317,109,0,0" TextWrapping="Wrap" Text="Hello please scan your RFID" VerticalAlignment="Top" RenderTransformOrigin="0.066,-18.38" FontSize="32"/>
+        <TextBlock x:Name="lblRFID" HorizontalAlignment="Left" Margin="317,359,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" RenderTransformOrigin="0.066,-18.38" FontSize="32"/>
 
     </Grid>
 </Page>
